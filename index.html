@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="dashboard">
+
+        <!-- Header -->
+        <header class="header">
+            <h1>Weather Dashboard</h1>
+
+            <p>
+                Check the weather anywhere in the world
+            </p>
+        </header>
+
+
+        <!-- Search Section -->
+        <section class="search-section">
+
+            <form id="search-form">
+
+                <input
+                    type="text"
+                    id="city-input"
+                    placeholder="Enter city name..."
+                    autocomplete="off"
+                    required
+                >
+
+                <button type="submit">
+                    Search
+                </button>
+
+            </form>
+
+            <button id="location-button">
+                📍 Use My Location
+            </button>
+
+        </section>
+
+
+        <!-- Error Message -->
+        <div id="error-message" class="error-message"></div>
+
+
+        <!-- Recent Cities -->
+        <section class="recent-section">
+
+            <h2>Recent Searches</h2>
+
+            <div id="recent-cities" class="recent-cities">
+                <!-- Recent cities will appear here -->
+            </div>
+
+        </section>
+
+
+        <!-- Current Weather -->
+        <section id="current-weather" class="current-weather">
+
+            <div class="weather-main">
+
+                <div>
+                    <p id="current-city" class="city-name">
+                        Search for a city
+                    </p>
+
+                    <p id="current-date" class="date">
+                        —
+                    </p>
+                </div>
+
+                <img
+                    id="weather-icon"
+                    src=""
+                    alt="Weather icon"
+                    class="weather-icon"
+                >
+
+            </div>
+
+
+            <div class="temperature">
+
+                <span id="temperature">
+                    --
+                </span>
+
+                <span>°C</span>
+
+            </div>
+
+
+            <p id="weather-description" class="description">
+                Enter a city to see the weather
+            </p>
+
+
+            <div class="weather-details">
+
+                <div class="detail-card">
+
+                    <span class="detail-icon">💧</span>
+
+                    <div>
+                        <p>Humidity</p>
+                        <strong id="humidity">--%</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="detail-card">
+
+                    <span class="detail-icon">💨</span>
+
+                    <div>
+                        <p>Wind Speed</p>
+                        <strong id="wind-speed">-- m/s</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="detail-card">
+
+                    <span class="detail-icon">🌡️</span>
+
+                    <div>
+                        <p>Feels Like</p>
+                        <strong id="feels-like">--°C</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Forecast -->
+        <section class="forecast-section">
+
+            <h2>5-Day Forecast</h2>
+
+            <div id="forecast" class="forecast-grid">
+                <!-- Forecast cards will appear here -->
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
