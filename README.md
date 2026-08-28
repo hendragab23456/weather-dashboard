@@ -1,10 +1,10 @@
-# Weather Dashboard 🌤️
+# Weather Dashboard 
 
 A clean, modern, and responsive **Weather Dashboard** web application that allows users to check current weather conditions and a 5-day forecast for any city in the world, or directly using their geolocation.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 - [Features](#-features)
 - [Project Structure](#-project-structure)
 - [Technologies Used](#-technologies-used)
@@ -14,10 +14,10 @@ A clean, modern, and responsive **Weather Dashboard** web application that allow
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Global City Search:** Search for any city worldwide to get real-time weather details.
-- **Geolocation Support:** Instantly fetch weather for your current position via the "📍 Use My Location" feature.
+- **Geolocation Support:** Instantly fetch weather for your current position via the " Use My Location" feature.
 - **Current Weather Details:**
   - Temperature (°C)
   - Weather Condition & Representative Icon
@@ -30,7 +30,7 @@ A clean, modern, and responsive **Weather Dashboard** web application that allow
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 weather-dashboard/
